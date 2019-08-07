@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  app:
+    container_name: sunchales-app
+    build: .
+    command: ["./node_modules/.bin/gulp", "bws"]
+    environment:
+      - NODE_ENV=development
+      - DEBUG=democracyos*
+      - MONGO_URL=mongodb://mongo:27017/myDatabase
+      - STAFF=hello@organization.org
+      - NOTIFICATIONS_MAILER_EMAIL=hello@organization.org
+      - NOTIFICATIONS_MAILER_NAME='My organization name'
+      - JWT_SECRET=*****PleaseChangeThis
+      - NOTIFICATIONS_NODEMAILER={"host":"********","port":****,"auth":{"user":"*****","pass":"*****"}}
+      # - CUSTOM_SIGNIN=true/false
+      # - OIDC_ISSUER=**************
+      # - OIDC_AUTH=**************
+      # - OIDC_TOKEN=**************
+      # - OIDC_USER=**************
+      # - OIDC_CLIENT_ID=**************
+      # - OIDC_CLIENT_SECRET=**************
+      # - OIDC_CALLBACK=**************
+    # links:
+    #   - mongo
+    ports:
+      - 3000:3000
+    volumes:
+      - ./ext/lib:/usr/src/ext/lib
+      - ./public:/usr/src/public
+      # Add every forced override to democracyos
+      - ./dos-override/models/comment.js:/usr/src/lib/models/comment.js
+      - ./dos-override/api-v2/db-api/comments/index.js:/usr/src/lib/api-v2/db-api/comments/index.js
+      - ./dos-override/api-v2/db-api/comments/scopes.js:/usr/src/lib/api-v2/db-api/comments/scopes.js
+    tty: true
+
+  # mongo:
+  #   container_name: sunchales-mongo
+  #   image: mongo:3.2
+  #   ports:
+  #     - 27017:27017
+  #   volumes:
+  #     - ./tmp/db:/data/db

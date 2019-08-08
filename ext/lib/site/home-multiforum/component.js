@@ -96,7 +96,7 @@ class HomeMultiForum extends Component {
           <div className='jumbotron_body'>
             <div className='container'>
               <img
-                src="/ext/lib/site/home-multiforum/logo-sunchales2.png"
+                src="/ext/lib/site/home-multiforum/logo-op.png"
                 alt="Logo"
                 width="270px"
               />

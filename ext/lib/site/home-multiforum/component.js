@@ -101,7 +101,7 @@ class HomeMultiForum extends Component {
                 width="270px"
               />
               <p className='lead highlight'>
-                Construyamos un mejor Sunchales para todos y todas.
+              Juntos por una  ciudad más transparente y más justa.
               </p>
               <button
                 className='btn btn-primary'
@@ -114,7 +114,8 @@ class HomeMultiForum extends Component {
         </section>
         <div className='lead-paragraph'>
           <p>
-            La plataforma <span className="skyblue">Sunchales Participa</span> es un espacio digital de dialogo e intercambio que permite informarnos, debatir
+          <span className="skyblue">Opinión Pública</span> es un canal de debate e intercambio entre la Fundación Confianza Pública y la comunidad, para promover<br/> 
+          la participación ciudadana, enriquecer buenas prácticas sobre integridad pública y llevar este conocimiento a todas las provincias de nuestro país.
             <br />
              y mejorar propuestas públicas.
           </p>
@@ -123,13 +124,15 @@ class HomeMultiForum extends Component {
             Seguí estos pasos para participar y empezar a debatir
           </p>
         </div>
-        <div className='section-icons col-md-10 offset-md-1'>
+        <div className='container'>
+          <div className='row'>
+        <div className='section-icons col-md-12'>
           <div className='row'>
             <div className='section-icon col-md-4'>
               <div>
                 <img
                   className='icon'
-                  src='/ext/lib/site/home-multiforum/boton-informate.jpg'
+                  src='/ext/lib/site/home-multiforum/informate.svg'
                   alt='Informate'
                 />
               </div>
@@ -141,7 +144,7 @@ class HomeMultiForum extends Component {
               <div>
                 <img
                     className='icon'
-                    src='/ext/lib/site/home-multiforum/boton-vota.jpg'
+                    src='/ext/lib/site/home-multiforum/participa.svg'
                     alt='Participá'
                   />
               </div>
@@ -153,7 +156,7 @@ class HomeMultiForum extends Component {
               <div>
               <img
                   className='icon'
-                  src='/ext/lib/site/home-multiforum/boton-participa.jpg'
+                  src='/ext/lib/site/home-multiforum/vota.svg'
                   alt='Compartí'
                 />
                 </div>
@@ -163,7 +166,8 @@ class HomeMultiForum extends Component {
             </div>
           </div>
         </div>
-
+        </div>
+        </div>
         <div className='lead-paragraph last col-md-4 offset-md-4 col-xs-12'>
           <i className='icon-arrow-down' onClick={this.handleButtonClick} />
         </div>

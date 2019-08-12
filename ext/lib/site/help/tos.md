@@ -2,9 +2,9 @@
 ​
 ### Descripción
 
-Los siguientes Términos y Condiciones regulan el uso de la Plataforma Sunchales Participa, donde se brinda información sobre proyectos que apunten al desarrollo de la ciudad generados a través de la participación ciudadana.
+Los siguientes Términos y Condiciones regulan el uso de la plataforma Opinión Pública, donde se brinda información sobre proyectos que apunten al desarrollo de la ciudad generados a través de la participación ciudadana.
 El registro y uso de la plataforma por parte de los usuarios indica la aceptación absoluta de los Términos y Condiciones presentes y de la Política de Privacidad.
-La Plataforma de Sunchales Participa es un sitio web desarrollado por el Municipio de Sunchales (el Administrador) que promueve la participación ciudadana en el diseño e implementación de políticas públicas. Esta herramienta favorece la generación de espacios de colaboración entre el Estado, la sociedad civil y el sector privado, para co-diseñar y co-producir valor público.
+La plataforma Opinión Pública es un sitio web desarrollado por la Fundación Confianza Pública en conjunto con la Embajada Británica en Buenos Aires (el Administrador) que promueve la participación ciudadana en el diseño e implementación de políticas públicas. Esta herramienta favorece la generación de espacios de colaboración entre el Estado, la sociedad civil y el sector privado, para co-diseñar y co-producir valor público.
 ​
 ## Inscripción en la plataforma web
 
@@ -53,7 +53,7 @@ Las siguientes actividades, sean lícitas o ilícitas, se encuentran expresament
 * Publicar de manera intencionada o con conocimiento injurias o calumnias;
 * Publicar, con el intento de engañar, contenido que es falso o inexacto;
 * Intentar usurpar la identidad de otro Usuario, representando de manera falsa su afiliación con cualquier individuo o entidad, o utilizar el nombre de otro Usuario con el propósito de engañar;
-* Promover, defender o mostrar pornografía, obscenidad, vulgaridad, blasfemia, odio, fanatismo, racismo y/o violencia. En caso de sufrir alguna de estas situaciones, comunicarse con el Administrador a través de [comunicacion@sunchales.gov.ar](comunicacion@sunchales.gov.ar)
+* Promover, defender o mostrar pornografía, obscenidad, vulgaridad, blasfemia, odio, fanatismo, racismo y/o violencia. En caso de sufrir alguna de estas situaciones, comunicarse con el Administrador a través de [contacto_opinionpublica@funpublica.com.ar](contacto_opinionpublica@funpublica.com.ar)
 * Vulnerar los derechos establecidos en la Ley N° 25.326 de Protección de Datos Personales.
 ​
 

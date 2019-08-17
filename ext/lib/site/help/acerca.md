@@ -1,8 +1,8 @@
 # Acerca de este sitio
 
-Sunchales Participa es un nuevo canal de diálogo y debate que permite la interacción entre el gobierno y la comunidad promoviendo la participación ciudadana y el fortalecimiento de la democracia.
+Opinión Pública es un canal de debate e intercambio entre la Fundación Confianza Pública y la comunidad, para promover la participación ciudadana, enriquecer buenas prácticas sobre integridad pública y llevar este conocimiento a todas las provincias de nuestro país.
 
-Podés conocer  y votar distintas propuestas gestadas  a través de la participación de vecinas/os de Sunchales que apuntan a mejorar la ciudad.
+
 
 Ya sos parte de estas conversaciones, es tu turno para hablar.
 
@@ -19,6 +19,6 @@ Ya sos parte de estas conversaciones, es tu turno para hablar.
 ​
 ## Tecnología
 
-La Plataforma Sunchales Participa es un desarrollo basado en la tecnología de DemocracyOS coordinada por el Municipio de Sunchales.
+La Plataforma Sunchales Participa es un desarrollo basado en la tecnología de DemocracyOS coordinada por la Fundación Confianza Pública.
 
 **DemocracyOS** es una plataforma online de [código abierto](https://github.com/DemocracyOS) especialmente diseñada para informar, debatir y votar propuestas públicas hacia la construcción de una democracia adaptada al siglo XXI.

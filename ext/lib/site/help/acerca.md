@@ -15,7 +15,7 @@ Ya sos parte de estas conversaciones, es tu turno para hablar.
 
 **Teléfono:** (3493) 425500
 
-**Correo electrónico:** [comunicacion@sunchales.gov.ar](mailto:comunicacion@sunchales.gov.ar)
+**Correo electrónico:** [contacto_opinionpublica@funpublica.com.ar](mailito:contacto_opinionpublica@funpublica.com.ar)
 ​
 ## Tecnología
 

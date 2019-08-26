@@ -113,12 +113,13 @@ class HomeMultiForum extends Component {
           </div>
         </section>
         <div className='lead-paragraph'>
-          <p>
-          <span className="skyblue">Opinión Pública</span> es un canal de debate e intercambio entre la Fundación Confianza Pública y la comunidad, para promover<br/> 
-          la participación ciudadana, enriquecer buenas prácticas sobre integridad pública y llevar este conocimiento a todas las provincias de nuestro país.
-            <br />
-             y mejorar propuestas públicas.
-          </p>
+            <div className='container-paragraph'>
+              <p>
+              <span className="skyblue">Opinión Pública</span> es un canal de debate e intercambio entre la Fundación Confianza Pública y la comunidad, para promover
+              la participación ciudadana, enriquecer buenas prácticas sobre integridad pública y llevar este conocimiento a todas las provincias de nuestro país.
+                <br />
+              </p>
+          </div>
           <br />
           <p className="bold">
             Seguí estos pasos para participar y empezar a debatir

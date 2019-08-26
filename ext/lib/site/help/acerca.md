@@ -15,7 +15,7 @@ Ya sos parte de estas conversaciones, es tu turno para hablar.
 
 **Teléfono:** (3493) 425500
 
-**Correo electrónico:** [contacto_opinionpublica@funpublica.com.ar](mailto:contacto_opinionpublica@funpublica.com.ar)
+**Correo electrónico:** [contacto_opinionpublica@funpublica.com.ar](mailito:contacto_opinionpublica@funpublica.com.ar)
 ​
 ## Tecnología
 

@@ -1,4 +1,4 @@
-# ¿Cómo Funciona?
+# Preguntas Frecuentes
 
 
 

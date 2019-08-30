@@ -2,9 +2,6 @@
 
 
 
-
-### Manual de usuario
-
 * [¿Cómo crear un usuario?](#crear-usuario)
 * [¿Cómo configurar tu perfil?](#configurar-perfil)
 * [¿Cómo está estructurado el sitio?](#estructura-del-sitio)

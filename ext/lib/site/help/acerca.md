@@ -19,6 +19,6 @@ Ya sos parte de estas conversaciones, es tu turno para hablar.
 ​
 ## Tecnología
 
-La Plataforma Sunchales Participa es un desarrollo basado en la tecnología de DemocracyOS coordinada por la Fundación Confianza Pública.
+La Plataforma Opinión Pública es un desarrollo basado en la tecnología de DemocracyOS coordinada por la Fundación Confianza Pública.
 
 **DemocracyOS** es una plataforma online de [código abierto](https://github.com/DemocracyOS) especialmente diseñada para informar, debatir y votar propuestas públicas hacia la construcción de una democracia adaptada al siglo XXI.

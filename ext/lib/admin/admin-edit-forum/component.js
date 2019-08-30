@@ -209,7 +209,7 @@ export default class EditForum extends Component {
               <div className='form-group clearfix'>
                 <input
                   type='text'
-                  placeholder='Municipio de Sunchales'
+                  placeholder='Opinión Pública'
                   value={owner}
                   onChange={this.handleChangeExtra('owner')} />
               </div>
@@ -219,7 +219,7 @@ export default class EditForum extends Component {
               <div className='form-group clearfix'>
                 <input
                   type='text'
-                  placeholder='https://www.sunchales.gob.ar/participa'
+                  placeholder='https://funpublica.com.ar/'
                   value={ownerUrl}
                   onChange={this.handleChangeExtra('ownerUrl')} />
               </div>

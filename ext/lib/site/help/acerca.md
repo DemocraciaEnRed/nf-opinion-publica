@@ -9,11 +9,11 @@ Ya sos parte de estas conversaciones, es tu turno para hablar.
 
 ## Contacto
 
-**Dirección:** Av. Belgrano 103 - Subsecretaría de Modernización del Estado
+**Dirección:** 
 
-**Código postal:** S2322
+**Código postal:** 
 
-**Teléfono:** (3493) 425500
+**Teléfono:** 
 
 **Correo electrónico:** [contacto_opinionpublica@funpublica.com.ar](mailito:contacto_opinionpublica@funpublica.com.ar)
 ​

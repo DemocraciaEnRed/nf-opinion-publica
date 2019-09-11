@@ -9,6 +9,14 @@ import Stats from './stats/component'
 
 
 export default class HelpLayout extends PureComponent {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidUpdate(){
+    window.scrollTo(0,0)
+  }
   articles = [
     {
       title: '¿Cómo funciona?',

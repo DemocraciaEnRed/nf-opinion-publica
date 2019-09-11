@@ -126,11 +126,9 @@ class HomeMultiForum extends Component {
           </p>
         </div>
         <div className='container'>
-          <div className='row'>
-        <div className='section-icons col-md-12'>
-          <div className='row'>
-            <div className='section-icon col-md-4'>
-              <div>
+        <div className='section-icons'>
+            <div className='section-icon'>
+              <div className="img-container">
                 <img
                   className='icon'
                   src='/ext/lib/site/home-multiforum/informate.svg'
@@ -138,11 +136,11 @@ class HomeMultiForum extends Component {
                 />
               </div>
               <div className='text'>
-                <h5>Informate</h5> sobre las consultas disponibles
+                <h5>Informate</h5> <span className="epigraph">sobre las consultas disponibles</span>
               </div>
             </div>
-            <div className='section-icon col-md-4'>
-              <div>
+            <div className='section-icon'>
+              <div className="img-container">
                 <img
                     className='icon'
                     src='/ext/lib/site/home-multiforum/participa.svg'
@@ -150,11 +148,11 @@ class HomeMultiForum extends Component {
                   />
               </div>
               <div className='text'>
-                <h5>Votá</h5> en los ejes de las consultas
+                <h5>Votá</h5> <span className="epigraph">en los ejes de las consultas</span>
               </div>
             </div>
-            <div className='section-icon col-md-4'>
-              <div>
+            <div className='section-icon'>
+              <div className="img-container">
               <img
                   className='icon'
                   src='/ext/lib/site/home-multiforum/vota.svg'
@@ -162,12 +160,10 @@ class HomeMultiForum extends Component {
                 />
                 </div>
               <div className='text'>
-                <h5>Participá</h5> con tu opinión. 
+                <h5>Participá</h5> <span className="epigraph">con tu opinión. </span>
               </div>
             </div>
           </div>
-        </div>
-        </div>
         </div>
         <div className='lead-paragraph last col-md-4 offset-md-4 col-xs-12'>
           <i className='icon-arrow-down' onClick={this.handleButtonClick} />

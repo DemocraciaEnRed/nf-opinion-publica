@@ -112,28 +112,31 @@
 
 
   .section-icons
+    display: flex
+    justify-content: space-evenly
     font-weight:600
     margin-top:20px
-    @media (max-width: 760px)
-      margin-left:6%
-    @media (max-width: 460px)
-      margin-left:10px
     .section-icon
       display: inline-block
       @media (max-width: 760px)
         display:flex
         flex-direction:column
+        width: 33%
       width:30% !important
       .icon
         width:100px
         float: left
       .text
         padding-left: 115px
-        @media (max-width: 760px)
-          padding-left:10px
         padding-top: 10px
         font-weight: 100
         font-size: 14px
+        
+        @media (max-width: 760px)
+          text-align: center
+          padding-left:10px
+          .epigraph
+            display: none
 
   .fa-group
     background-image: url("ext/lib/site/home-multiforum/users.svg")

@@ -4,6 +4,7 @@
   flex-direction: row
   cursor: default
   @media screen and (max-width: 750px)
+    min-height: 100px
     flex-direction:column
   position: relative
   padding-top: 30px
@@ -13,7 +14,7 @@
     max-height:300px
     overflow:hidden
     background-size: cover
-    @media screen and (max-width: 750px)
+    @media screen and (max-width: 750pxforum-card-img)
       width: 100%
     img
       width:100%
@@ -53,10 +54,13 @@
         color: #595959
 
     .forum-card-footer
+      @media (max-width: 780px)
+        display: none
       .btn.btn-link
         color: white !important
         background-color: #238cc9 !important
         text-decoration: none !important
+      
 
   &:before
     content: ''

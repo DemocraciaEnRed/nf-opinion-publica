@@ -69,11 +69,6 @@ class HomeMultiForum extends Component {
       .catch(console.error)
   }
 
-  handleButtonClick = () => {
-    Jump('#consultas')
-    // const consultasNode = ReactDOM.findDOMNode(this.refs.consultas)
-    // window.scrollTo(0, consultasNode.offsetTop)
-  }
 
   render () {
     if (this.props.user.state.pending) return null

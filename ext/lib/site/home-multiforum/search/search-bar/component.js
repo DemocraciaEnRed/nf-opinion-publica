@@ -15,12 +15,12 @@ const SearchBar = ({
         placeholder=""
         onChange={handleChange}
       />
-      <button
+      <button className="btn btn-link"
         type="submit"
         onClick={execSearch}
       >
         <i className='icon-find' />
-        Buscar
+        <span>Buscar</span>
       </button>
     </div>
     <div

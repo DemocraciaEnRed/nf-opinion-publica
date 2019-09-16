@@ -14,13 +14,23 @@
     outline: 0
     &:hover
       outline: 0
-  button
+  .btn.btn-link
+    display: flex
+    justify-content: center
+    align-items: center
     width:10%
     min-width: 65px
-    height:40px
-    background:#5D6AB1
+    height: 60% 
+    background-color:#5D6AB1 !important
     color: #fff
     border: 0
+    text-decoration: none !important
+    @media (max-width: 780px)
+      width: 60%
+      height: 40%
+  @media (max-width: 780px)
+    flex-wrap: wrap
+    width: 100%
 
 .advancedsearch
   padding:20px

@@ -9,5 +9,15 @@
       font-weight: 400
       color: #000
       margin-bottom: 2em
+  .btn-mobile
+    display: none
+    @media (max-width: 780px)
+      width: 100%
+      display: flex
+      justify-content: center
+      .btn.btn-link
+        color: white !important
+        background-color: #238cc9 !important
+        text-decoration: none !important
 
 @import '../forum-card/styles.styl'

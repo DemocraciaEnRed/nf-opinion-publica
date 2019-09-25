@@ -5,6 +5,9 @@ MAINTAINER Democracia en Red <it@democracyos.io>
 COPY ./dos-override/models/comment.js /usr/src/lib/models/comment.js
 COPY ./dos-override/api-v2/db-api/comments/index.js /usr/src/lib/api-v2/db-api/comments/index.js
 COPY ./dos-override/api-v2/db-api/comments/scopes.js /usr/src/lib/api-v2/db-api/comments/scopes.js
+COPY ./dos-override/api-v2/middlewares/notifications.js /usr/src/lib/api-v2/middlewares/notifications.js
+COPY ./dos-override/node_modules/democracyos-notifier/lib/templates/lib/comment-reply.js:/usr/src/node_modules/democracyos-notifier/lib/templates/lib/comment-reply.js
+COPY ./dos-override/node_modules/democracyos-notifier/lib/jobs/lib/comment-reply.js:/usr/src/node_modules/democracyos-notifier/lib/jobs/lib/comment-reply.js
 
 ENV LOCALE=es \
   AVAILABLE_LOCALES=es,en \

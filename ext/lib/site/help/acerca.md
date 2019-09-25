@@ -9,11 +9,9 @@ Ya sos parte de estas conversaciones, es tu turno para hablar.
 
 ## Contacto
 
-**Dirección:** 
+**Dirección:** Perú 354 
 
-**Código postal:** 
-
-**Teléfono:** 
+**Teléfono:** 4334 – 0707
 
 **Correo electrónico:** [contacto_opinionpublica@funpublica.com.ar](mailito:contacto_opinionpublica@funpublica.com.ar)
 ​

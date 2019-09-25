@@ -21,9 +21,9 @@ export default class Footer extends Component {
                 <img src='/ext/lib/site/footer/logo-fun-confp.png' />
               </a>
             </div>
-            <p className='text-muted small'>
+         {/*    <p className='text-muted small'>
               Los contenidos de Argentina.gob.ar están licenciados bajo <a href='https://creativecommons.org/licenses/by/2.5/ar/'>Creative Commons Reconocimiento 2.5 Argentina License</a>
-            </p>
+            </p> */}
           </div>
             <nav className='menu'>
               <Link to='/ayuda/como-funciona'>¿Cómo funciona?</Link>

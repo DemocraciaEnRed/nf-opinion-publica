@@ -10,7 +10,7 @@ const overrides = {
   'templates.welcome-email.body': 'Para completar su registro haga <a href="{validateUrl}">click aquí.</a>',
   'templates.welcome-email.ps': 'Si no te has registrado, por favor ignorá este mensaje.',
 
-  'templates.comment-reply.subject': 'Alguien respondió tu comentario',
+  'templates.comment-reply.subject': '{authorReply} respondió tu comentario',
   'templates.comment-reply.body': 'Tienes una nueva respuesta a tu comentario.',
   'templates.comment-reply.body2': 'Por favor <a href=\"{url}\">cliquea aquí</a> para verla.',
 

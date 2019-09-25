@@ -1,5 +1,5 @@
 .DS_Store
 /*.override.yml
-node_modules
+ext/node_modules
 public
 tmp

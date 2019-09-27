@@ -15,9 +15,13 @@ import HelpExt from 'ext/lib/site/help/component'
 import * as SignIn from 'lib/site/sign-in/component'
 import SignInExt from 'ext/lib/site/sign-in/component'
 
+import * as SignUp from 'lib/site/sign-up/component'
+import SignUpExt from 'ext/lib/site/sign-up/component'
+
 
 HomeForum.default = HomeForumExt
 HomeMultiForum.default = HomeMultiForumExt
 TopicLayout.default = TopicLayoutExt
 Help.default = HelpExt
 SignIn.default = SignInExt
+SignUp.default = SignUpExt

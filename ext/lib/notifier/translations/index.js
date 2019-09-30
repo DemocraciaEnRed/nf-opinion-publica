@@ -3,12 +3,12 @@ const translations = require('democracyos-notifier/lib/translations')
 const t = translations.t
 
 const overrides = {
-  'templates.email.greeting': 'Estimado/a, {userName}',
+  'templates.email.greeting': 'Hola, {userName}, iniciaste el proceso de registro para participar en opinión pública',
   'templates.email.signature': 'Opinión Pública',
 
   'templates.welcome-email.subject': 'Bienvenido a Opinión Pública',
-  'templates.welcome-email.body': 'Para completar su registro haga <a href="{validateUrl}">click aquí.</a>',
-  'templates.welcome-email.ps': 'Si no te has registrado, por favor ignorá este mensaje.',
+  'templates.welcome-email.body': 'Para finalizarlo hacé <a href="{validateUrl}">click aquí.</a>',
+  'templates.welcome-email.ps': 'En caso de no haberte registrado, por favor ignorá este correo.',
 
   'templates.comment-reply.subject': '{authorReply} respondió tu comentario',
   'templates.comment-reply.body': 'Tienes una nueva respuesta a tu comentario.',

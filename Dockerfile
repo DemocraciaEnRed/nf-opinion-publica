@@ -27,4 +27,4 @@ ENV LOCALE=es \
   SOCIALSHARE_IMAGE=https://opinionpublica.confianzapublica.com.ar/ext/lib/boot/sharer.png \
   SOCIALSHARE_DOMAIN=opinionpublica.confianzapublica.com.ar \
   SOCIALSHARE_TWITTER_USERNAME=@confianzapubli \
-  TWEET_TEXT='Te invitamos a debatir sobre el tema “{topic.mediaTitle}” en nuestro portal'
+  TWEET_TEXT='Participá en “{topic.mediaTitle}”. ¡Hagamos una Ciudad más transparente y justa para todos y todas!'

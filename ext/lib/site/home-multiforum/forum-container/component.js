@@ -13,7 +13,6 @@ const contentTypesMapper = {
 export default ({ forum }) => 
 ( 
   <div className='container forum-card-container'>
-    {console.log(forum.extra.contentType)}
     <ForumCard forum={forum} />
     <div className='forum-slider-wrapper'>
       <h4 className='forum-slider-title'>

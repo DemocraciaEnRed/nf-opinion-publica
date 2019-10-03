@@ -3,20 +3,17 @@ FROM democracyos/democracyos:2.11.15
 MAINTAINER Democracia en Red <it@democracyos.io>
 
 COPY ./dos-override/models/comment.js /usr/src/lib/models/comment.js
+COPY ./dos-override/models/user.js /usr/src/lib/models/user.js
 COPY ./dos-override/api-v2/db-api/comments/index.js /usr/src/lib/api-v2/db-api/comments/index.js
 COPY ./dos-override/api-v2/db-api/comments/scopes.js /usr/src/lib/api-v2/db-api/comments/scopes.js
+COPY ./dos-override/api-v2/db-api/users/scopes.js /usr/src/lib/api-v2/db-api/users/scopes.js
 
+COPY ./dos-override/db-api/user.js /usr/src/lib/db-api/user.js
 COPY ./dos-override/api-v2/middlewares/notifications.js /usr/src/lib/api-v2/middlewares/notifications.js
 COPY ./dos-override/node_modules/democracyos-notifier/lib/templates/lib/comment-reply.js /usr/src/node_modules/democracyos-notifier/lib/templates/lib/comment-reply.js
 COPY ./dos-override/node_modules/democracyos-notifier/lib/jobs/lib/comment-reply.js /usr/src/node_modules/democracyos-notifier/lib/jobs/lib/comment-reply.js
 
-COPY ./dos-override/models/user.js /usr/src/lib/models/user.js
-COPY ./dos-override/settings/settings-profile/template.jade /usr/src/lib/settings/settings-profile/template.jade
-COPY ./dos-override/api/settings/index.js /usr/src/lib/api/settings/index.js
-COPY ./dos-override/api-v2/db-api/users/scopes.js /usr/src/lib/api-v2/db-api/users/scopes.js
-COPY ./dos-override/db-api/user.js /usr/src/lib/db-api/user.js
-COPY ./dos-override/site/topic-layout/topic-article/comments/list/comment/header/component.js /usr/src/lib/site/topic-layout/topic-article/comments/list/comment/header/component.js
-COPY ./dos-override/site/topic-layout/topic-article/comments/list/comment/replies/list/header/component.js /usr/src/lib/site/topic-layout/topic-article/comments/list/comment/replies/list/header/component.js
+
 
 ENV LOCALE=es \
   AVAILABLE_LOCALES=es,en \

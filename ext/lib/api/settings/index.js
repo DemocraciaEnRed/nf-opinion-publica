@@ -14,7 +14,7 @@ var User = require('lib/models').User
 
 var app = module.exports = express()
 
-app.post('/settings/profile', restrict, function (req, res) {
+app.post('/profile', restrict, function (req, res) {
   var user = req.user
   log('Updating user %s profile', user.id)
 

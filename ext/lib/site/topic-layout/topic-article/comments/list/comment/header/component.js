@@ -11,7 +11,6 @@ export default ReactOutsideEvent(class CommentHeader extends Component {
 
   render () {
     const { comment } = this.props
-
     return (
       <header className={`meta ${comment.author.badge ? ' has-badge' : ''}`}>
         <img

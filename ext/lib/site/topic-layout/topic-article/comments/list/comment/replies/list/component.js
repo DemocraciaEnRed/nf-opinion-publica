@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import t from 't-component'
 import ReplyHeader from './header/component'
-import ReplyContent from '/lib/site/topic-layout/topic-article/comments/list/comment/replies/list/content/component'
+import ReplyContent from 'lib/site/topic-layout/topic-article/comments/list/comment/replies/list/content/component'
 
 export default function RepliesList (props) {
   const replies = props.replies || []

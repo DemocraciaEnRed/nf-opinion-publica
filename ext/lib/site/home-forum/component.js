@@ -110,6 +110,18 @@ export default class HomeForum extends Component {
                   Mirá las propuestas y participá
                 </a>
               }
+              {
+                forum.name == 'leyesdeintegridad' && 
+                <p>
+                <a
+                  className='btn btn-success btn-sm'
+                  href="https://issuu.com/contacto_opinionpublica/docs/web"
+                  target="_blank"
+                  style={{margin: '5px'}}>
+                  Descargá el Estudio sobre Leyes de Integridad Pública 
+                </a>
+                </p>
+              }
             </div>
           </div>
         </section>
